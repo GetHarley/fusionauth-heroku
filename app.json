@@ -28,7 +28,7 @@
     },
     "FUSIONAUTH_APP_RUNTIME_MODE": {
       "description": "The FusionAuth runtime mode. Set to 'production' to use in production mode.",
-      "value": "production"
+      "value": "development"
     }
   },
   "formation": {
