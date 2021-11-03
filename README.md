@@ -1,4 +1,4 @@
-# Working FusionAuth Server on Heroku/Zeet
+# Scaffolding for spawing a FusionAuth Serverin Heroku (forked from https://github.com/pankyka/fusionauth-heroku)
 
 FusionAuth Server provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.
 
