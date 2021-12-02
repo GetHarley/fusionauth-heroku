@@ -36,15 +36,6 @@ path="`echo $url | grep / | cut -d/ -f2-`"
 # parsing ended
 # ============================================================================
 
-export FUSIONAUTH_APP_HTTP_PORT=$PORT
-export FUSIONAUTH_APP_URL="http://0.0.0.0:"$PORT
 export DATABASE_URL="jdbc:postgresql://$host:$port/$path"
-export DATABASE_USERNAME="$user"
-export DATABASE_PASSWORD="$pass"
 
-#echo "Database URL: $DATABASE_URL"
-#echo "Database Username: $DATABASE_USERNAME"
-#echo "Database Password: $DATABASE_PASSWORD"
-
-# start fusionauth-app
-/usr/local/fusionauth/fusionauth-app/apache-tomcat/bin/catalina.sh run
+# start app
