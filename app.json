@@ -14,10 +14,13 @@
   },
   "addons": [
     {
-      "plan": "heroku-postgresql:standard-0"
+      "plan": "heroku-postgresql:hobby-basic"
     },
     {
       "plan": "papertrail:choklad"
     }
-  ]
+  ],
+  "scripts": {
+    "postdeploy": "go test ./src"
+  }
 }
