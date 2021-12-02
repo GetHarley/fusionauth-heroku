@@ -36,6 +36,4 @@ path="`echo $url | grep / | cut -d/ -f2-`"
 # parsing ended
 # ============================================================================
 
-export DATABASE_URL="jdbc:postgresql://$host:$port/$path"
-
 # start app
