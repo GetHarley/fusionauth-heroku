@@ -1,6 +1,6 @@
 {
   "name": "NgEntitySyncService",
-  "app-name": "NgEntitySyncService",
+  "app_name": "NgEntitySyncService",
   "description": "Service for consuming CRUD events published by the MVP and applying them to the NG core schema",
   "success_url": "/",
   "repository": "https://github.com/GetHarley/NgEntitySyncService",
